@@ -19,7 +19,7 @@ class MyHome extends React.Component{
                 </div>
                 {/*头可以共用之后的就可以构建化了——可以修改active*/}
                 <div className = "container" >
-                    <Navigator username={this.state.username} userid={this.state.userid}/>
+                    <Navigator username={this.state.username} userid={this.state.userid} state={this.state.state1}/>
                     {/*然后就是帖子的比如缩略内容，也可以构建化*/}
                     <br/>
                     <div className="media">
